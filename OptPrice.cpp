@@ -72,8 +72,6 @@ int main(int argc, char* argv[])
 	//tAlg.build_n_RRsets(Arg._numR);
 	tAlg.stoppingrule(epsilon, delta);
 	
-	//return 0;
-
 	double fC = tAlg.getfC();
 
 	std::cout << "fC is " << fC << '\n';
